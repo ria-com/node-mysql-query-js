@@ -2,6 +2,7 @@ mysql-query-js
 ==============
 
 Mysql service query interface for simple build sql query through mysql pool connections.
+
 The module has been transfered from [mysql-query](https://github.com/ria-com/node-mysql-query) especially for publication in the npm repository
 
 Introduction
