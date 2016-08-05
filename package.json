@@ -1,0 +1,38 @@
+{
+  "name": "mysql-query-js",
+  "version": "0.1.2",
+  "main": "./lib/mysql-query.js",
+  "description": "Mysql service query interface for simple build sql query through mysql pool connections",
+  "author": {
+    "name": "Oleg Cherniy",
+    "email": "oleg.cherniy@gmail.com"
+  },
+  "homepage": "http://github.com/ria-com/node-mysql-query/",
+  "directories": {
+    "lib": "./lib",
+    "config": "./config"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "config": "*",
+    "mysql": ">=2.x.x"
+  },
+  "devDependencies": {
+    "jasmine-node": ">=1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ria-com/node-mysql-query"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+     "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+  },
+  "bugs": {
+    "url": "https://github.com/ria-com/node-mysql-query/issues"
+  }
+}
