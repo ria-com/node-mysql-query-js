@@ -45,7 +45,7 @@ Quick Start
 
 **Install the package:**
 
-      my-project$ npm install mysql-query
+      my-project$ npm install mysql-query-js
 
 **Edit the mysql configuration file:**
 
