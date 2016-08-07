@@ -16,7 +16,7 @@ describe("Simple query param's testing", function () {
             })
     });
 
-    it("Проверяем работоспособность при минимальистическом числе параметров", function (done) {
+    it("Проверяем работоспособность при минималистическом числе параметров", function (done) {
         expect(testRows.length).toBeGreaterThan(1);
 
         done();
@@ -40,7 +40,7 @@ describe("Master query param's testing", function () {
         });
     });
 
-    it("Проверяем работоспособность при минимальистическом числе параметров", function (done) {
+    it("Проверяем работоспособность при минималистическом числе параметров", function (done) {
         expect(testRows2.length).toBeGreaterThan(1);
         expect(testRows2).toEqual(testRows);
 
@@ -63,7 +63,7 @@ describe("Master query param's testing", function () {
         });
     });
 
-    it("Проверяем работоспособность при минимальистическом числе параметров", function (done) {
+    it("Проверяем работоспособность при минималистическом числе параметров", function (done) {
         expect(testRows2.length).toBeGreaterThan(1);
         expect(testRows2).toEqual(testRows);
 
